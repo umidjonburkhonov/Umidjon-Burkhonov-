@@ -1,39 +1,6 @@
 "use scrict";
 
-//    const numberOfSeries = +prompt ("Nechta serial ko'rdingiz ?", "");
 
-//    const seriesDB = {
-//     count: numberOfSeries,
-//     series: {},
-//     actors: {},
-//     genders:[],
-//     private: false,
-//    };
-
-//     for (let i = 0; i < 2; i++){
-//         const a = prompt ("Oxirgi ko'rgan serialingiz"),
-//               b =prompt ("nechi baxo berasiz?");
-
-//         if (a != null && b != null && a != ""  && b != ""){
-//             seriesDB.series[a] = b;
-//             console.log("done");
-//         } else {
-//             console.log("error");
-//             i--;
-//         }
-//     }
-
-//     if(seriesDB.count < 5){
-//         console.log("Kam seral ko'ribsiz");
-//     } else if (seriesDB.count >= 5 && seriesDB.count < 10){
-//         console.log("Siz classik tomoshabin ekansiz");
-//     }else if (seriesDB.count >= 10){
-//         console.log("Siz serialchi zvezda ekansiz");
-//     }else {
-//         console.log("Error");
-//     }
-
-//     console.log(seriesDB);
 
 //const place = confirm ("are you here");
 //console.log(place);
@@ -124,3 +91,170 @@
 // const user = "Umidjon Burkhonov";
 
 // console.log(user.substr(8, 2));
+
+// const theif = {
+//   jacket: "black",
+//   height: 1.7,
+//   color: {
+//     hair: "gray",
+//     style: "curley",
+//     how: {
+//       bauch: "dick",
+//       arm: "lang",
+//       hande: "gros",
+//     },
+//   },
+//   howOut: function () {
+//     console.log("Fast with help doors");
+//   },
+// };
+
+// theif.howOut();
+
+// const { bauch, arm, hande } = theif.color.how;
+
+// console.log(bauch);
+// console.log(arm);
+// console.log(hande);
+
+// const {hair, style} = theif.color;
+
+// const hair = theif.color.hair;
+// const style = theif.color.style;
+
+// console.log(hair);
+// console.log(style);
+// console.log(Object.keys(theif).length);
+
+// for (let key in theif) {
+//   if (typeof theif[key] === "object") {
+//     for (let i in theif[key]) {
+//       console.log(`Property ${i} has value ${theif[key][i]} `);
+//     }
+//   } else {
+//     console.log(`Property ${key} has value ${theif[key]} `);
+//   }
+// }
+
+// const arr = [2, 8, 78, 5, 6, 11, 15, 25];
+// arr.sort((a,b)=> a-b);
+// console.log(arr);
+
+// function compareFn(a, b) {
+//   return a - b;
+// }
+
+// arr[88] = 1;
+// console.log(arr.length);
+
+// arr.forEach(function (item, index, arr) {
+//   console.log(`  ${index}:  ${item} into to arr: ${arr}`);
+// });
+
+// arr.pop();
+// arr.push(7);
+// arr.shift();
+// arr.unshift(9);
+
+// console.log(arr);
+
+// for (let i = 1; i < arr.length; i++) {
+//   console.log(arr[i - 1]);
+// }
+
+// for(let value of arr){
+//     console.log(value);
+// }
+
+// const movies = prompt("what is your favourite movies?", "");
+// const userMovies = movies.split(", ");
+// userMovies.sort();
+// console.log(userMovies.join("+  "));
+
+// let x = 10;
+// let y = x;
+
+// y = y + 5;
+
+// console.log(x);
+// console.log(y);
+
+// let isMarried = false;
+// let isArray = isMarried;
+
+// isArray = true;
+
+// console.log(isMarried);
+// console.log(isArray);
+
+// const number = {
+//   x: 10,
+//   y: 5,
+// };
+
+// const newNumber = number;
+
+// newNumber.x = 15;
+
+// console.log(number);
+// console.log(newNumber);
+
+// function copyObj(obj) {
+//   let objCopy = {};
+
+//   for (let key in obj) {
+//     objCopy[key] = obj[key];
+//   }
+
+//   return objCopy;
+// }
+
+// const numbers = {
+//   x: 10,
+//   y: 5,
+//   z: {
+//     a: 1,
+//     b: 2,
+//   },
+// };
+
+// const newNumbers = copyObj(numbers);
+
+// newNumbers.x = 15;
+// newNumbers.z.a = 10;
+
+// console.log(newNumbers);
+// console.log(numbers);
+
+// const numbers = {
+
+//   x: 10,
+//   y: 5,
+// };
+
+// const addNumber = {
+//   z: 15,
+// };
+
+// const allNumbers = Object.assign( numbers, addNumber);
+
+// console.log(allNumbers);
+
+// const arr = [1, 2, 3];
+// const numbers = arr.slice();
+
+// numbers[0] = "Umidjon";
+
+// console.log(arr);
+// console.log(numbers);
+
+// // SPEAD
+
+// const liverpool = ["salah", "Mane"];
+// const manCity = ["Mahrez"];
+
+// const mixPlayer = [...liverpool, ...manCity];
+
+// console.log(mixPlayer);
+
+
